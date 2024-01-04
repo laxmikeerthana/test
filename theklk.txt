@@ -5,13 +5,14 @@ git clone <repo_link>                    //to clone any REPOSITORY that existed 
 
 git status                             // to know the status of the repo regarding any changes
 
-git add theklk.txt                       // to add any file or changes to staging area ( which are ready to commit to the main repo) if the new file or change is moved to GREEN color after this command execution with     < git status >  cmd then its successfully dropped in the stagging area .
+git add theklk.txt                       // #1 to add any file or changes to staging area ( which are ready to commit to the main repo) if the new file or change is moved to GREEN color after this command execution with     < git status >  cmd then its successfully dropped in the stagging area .
 
-git commit -m 'first version of text file commit cmd first commit '          // local  computer version control db (from stagging area changes to local computer only )
+git commit -m 'first version of text file commit cmd first commit '          // #2  local  computer version control db (from stagging area changes to local computer only )
 
 git log                                // shows all the loggs  with their commit id , Date , commit Message we can see
 
-
+git push                              // #4 the made changes from local which are commited are available in our repo in github websitte
+ these are the main 4 steps 
 
 
 
