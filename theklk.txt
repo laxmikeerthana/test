@@ -14,7 +14,7 @@ git log                                // shows all the loggs  with their commit
 git push                              // #4 the made changes from local which are commited are available in our repo in github websitte
  these are the main 4 steps 
 
-
+git difftool HEAD                        // #5 to see the changes  previous version and current 
 
 
 git config --global user.email "you@example.com"
